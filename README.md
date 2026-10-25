@@ -48,3 +48,4 @@ rando -d
 
 rolls a dice with x many sides y times.  
 if no number is passed, it's a 6 sided dice once.  
+Dice is limited to 100 sides and 10000 rolls  
