@@ -1,6 +1,7 @@
 #include <random>
 #include <print>
 #include <cstdlib>
+#include <string_view>
 
 /*
 This started as random int generator with the intention to manually type the max amount of options into the cli, 
@@ -79,7 +80,7 @@ void roll_dice(int sides = 6, int amount = 1){
         std::println("Dice roll #{}, result is {}", i + 1, get_random_int(sides));
     }
         
-
+ 
 }
 
 int main(int argc, char** argv)
